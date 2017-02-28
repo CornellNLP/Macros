@@ -25,8 +25,9 @@ The dataset is further described in our paper:
 Files
 -----
 
-* arxiv_macro_data_release.txt - a txt file containing the dataset
-* README.txt - this readme
+* arxiv_macro_data_release.txt - a txt file containing the macros
+* README.md - this readme
+* PythonScript.py - a simple python script that reads the data
 
 
 LaTeX macro description
