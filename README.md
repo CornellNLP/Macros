@@ -61,45 +61,28 @@ Sample Python script
 ----------
 This script can also be found in the repository.
 
+```python
 def parse_data(filename):
     parsed_data = []
-	
     with open(filename, 'r') as fin:
-	
         current = {'authors': []}
-		
         for line in fin:
-		
             stripped = line.strip()
-			
             if not stripped:
-			
                 parsed_data.append(current)
-				
                 current = {'authors': []}
-				
             elif stripped.startswith('macro_body'):
-			
                 current['macro_body'] = stripped[len('macro_body')+2:]
-				
             elif stripped.startswith('macro_name'):
-			
                 current['macro_name'] = stripped[len('macro_name')+2:]
-				
             elif stripped.startswith('paper_id'):
-			
                 current['paper_id'] = stripped[len('paper_id')+2:]
-				
             elif stripped.startswith('date'):
-			
                 current['date'] = stripped[len('date')+2:]
-				
             elif stripped.startswith('author'):
-			
                 current['authors'].append(stripped[len('author')+2:])
-				
     return parsed_data
-
+```
 
 
 References
