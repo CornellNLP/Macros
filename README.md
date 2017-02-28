@@ -1,7 +1,7 @@
 Cornell LaTeX Macro Dataset
 ==============================================
 
-The dataset is available at: http://zissou.infosci.cornell.edu/data/MacroDatast.zip
+The dataset is available at: http://zissou.infosci.cornell.edu/data/MacroDataset.zip
 
 This dataset contains a collection of LaTeX macro usages on arXiv[1], from July 1991 to September 2015 (Data was downloaded in November 2015).
 For each macro definition in the LaTeX sources submitted to arXiv, we include the name and body of the macro, in addition to the arXiv tag of the paper, date of the submission and a list of authors of the paper.
@@ -20,7 +20,7 @@ Last updated: February 23, 2017
 Version: 1.0
 
 The dataset is further described in our paper:
-	Competition and Selection Among Conventions
+	[Competition and Selection Among Conventions](http://www.cs.cornell.edu/~cristian/Competition_and_Selection_Among_Conventions_files/competing_conventions.pdf)
 	Rahmtin Rotabi, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg
 	Proceedings of WWW, 2017.
 
