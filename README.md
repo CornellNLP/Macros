@@ -1,5 +1,7 @@
-Arxiv LaTeX Macro Dataset
+Cornell LaTeX Macro Dataset
 ==============================================
+
+The dataset is available at: http://zissou.infosci.cornell.edu/data/MacroDatast.zip
 
 This dataset contains a collection of LaTeX macro usages on arXiv[1], from July 1991 to September 2015 (Data was downloaded in November 2015).
 For each macro definition in the LaTeX sources submitted to arXiv, we include the name and body of the macro, in addition to the arXiv tag of the paper, date of the submission and a list of authors of the paper.
@@ -67,7 +69,7 @@ This submission was made in July 2015 and has 4 authors.
 
 Sample Python script
 ----------
-This script can also be found in the repository.
+This script can also be found in the distributed zip file.
 
 ```python
 def parse_data(filename):
