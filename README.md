@@ -44,6 +44,7 @@ For each macro instance included in our dataset there is a block of lines follow
 * Fifth line and on:  author names (ordered)
 
 Example:
+```
 macro_body: \text{\unslant[-.18]\delta}
 macro_name: \mdelta
 paper_id: 1507.00003
@@ -52,6 +53,7 @@ author: grozdanov,s.
 author: lucas,a.
 author: sachdev,s.
 author: schalm,k.
+```
 
 The arXiv submission page can be accessed through (https://arxiv.org/abs/ + "paper_id") which in the case of this example is: https://arxiv.org/abs/1507.00003.
 This submission was made in July 2015 and has 4 authors.
