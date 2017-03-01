@@ -6,12 +6,14 @@ The dataset is available at: http://zissou.infosci.cornell.edu/data/MacroDataset
 This dataset contains a collection of LaTeX macro usages on arXiv [1], from July 1991 to September 2015 (Data was downloaded in November 2015).
 For each macro definition in the LaTeX sources submitted to arXiv, we include the name and body of the macro, in addition to the arXiv tag of the paper, date of the submission and a list of authors of the paper.
 
+The datasets contains X unique macro bodies, used Y times (with a total of Z names) in W papers.
+
 
 URL: http://github.com/CornellNLP/Macros
 
-Authors: Rahmtin Rotabi 
-		 Cristian Danescu-Niculescu-Mizil 
-		 Jon Kleinberg 
+Authors: Rahmtin Rotabi, 
+		 Cristian Danescu-Niculescu-Mizil and 
+		 Jon Kleinberg, 
 		 
 Contact: Rahmtin Rotabi <rahmtin@cs.cornell.edu>
 
