@@ -6,7 +6,7 @@ The dataset is available at: http://zissou.infosci.cornell.edu/data/MacroDataset
 This dataset contains a collection of LaTeX macro usages on arXiv [1], from July 1991 to September 2015 (Data was downloaded in November 2015).
 For each macro definition in the LaTeX sources submitted to arXiv, we include the name and body of the macro, in addition to the arXiv tag of the paper, date of the submission and a list of authors of the paper.
 
-The datasets contains X unique macro bodies, used Y times (with a total of Z names) in W papers.
+The datasets contains 2,586,540 unique macro bodies, used 22,628,300 times (with a total of 1,198,870 names) in 583,079 papers.
 
 
 URL: http://github.com/CornellNLP/Macros
@@ -22,7 +22,7 @@ Last updated: February 23, 2017
 Version: 1.0
 
 The dataset is further described in our paper:
-	[Competition and Selection Among Conventions](http://www.cs.cornell.edu/~cristian/Competition_and_Selection_Among_Conventions_files/competing_conventions.pdf)
+	[Competition and Selection Among Conventions](https://arxiv.org/pdf/1702.06527.pdf)
 	Rahmtin Rotabi, Cristian Danescu-Niculescu-Mizil, Jon Kleinberg
 	Proceedings of WWW, 2017.
 
@@ -32,6 +32,7 @@ Files
 * arxiv_macro_data_release.txt - a txt file containing the macros
 * README.md - this readme
 * PythonScript.py - a simple python script that reads the data
+* competing_conventions.pdf - The paper that used this dataset first
 
 
 LaTeX macro description
