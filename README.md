@@ -13,7 +13,7 @@ URL: http://github.com/CornellNLP/Macros
 
 Authors: Rahmtin Rotabi, 
 		 Cristian Danescu-Niculescu-Mizil and 
-		 Jon Kleinberg, 
+		 Jon Kleinberg
 		 
 Contact: Rahmtin Rotabi <rahmtin@cs.cornell.edu>
 
